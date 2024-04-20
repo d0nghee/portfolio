@@ -1,0 +1,16 @@
+spring:
+  datasource:
+    url: ENC(0VhksqC/vUqHP1jzBTOdAAHnWh60jWH3ClJwas/b2CkgO4gU0y1q6NyaHjH4b2ZO8a6pGoZDxOxvhYISEFa6fPq9Z3t1JuZmMpBCdXuMUDp1UL9PQ4Wn8CwATMsuKsDB)
+    username: ENC(eLvtK7Kb2cxNyfHVG/bEtg==)
+    password: ENC(qxeXSO9/pgyEqanqj1OlW9B2yrUv7IjG)
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: none
+      type:
+        descriptor:
+          sql: true
+    properties:
+      hibernate:
+        format_sql: true
